@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.pswp-thumbnail {
+  display: inline-block;
+  width: 120px;
+  height: 90px;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+  img {
+    max-width: 100%;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
